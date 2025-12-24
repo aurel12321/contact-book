@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Book</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- CONTACT BOOK -->
+  <div class="contact-book">
+    <div class="header">
+      <h2>Contact book</h2>
+      <button id="openModal" class="add-btn">+</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Nom</th>
+          <th>Prénom</th>
+          <th>Email</th>
+          <th>Téléphone</th>
+        </tr>
+      </thead>
+      <tbody id="contactTable">
+        <!-- Contacts ajoutés dynamiquement -->
+      </tbody>
+    </table>
+
+    <footer>© 2025 - Acme Corp.</footer>
+  </div>
+</div>
+
+<!-- MODALE -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span id="closeModal" class="close">&times;</span>
+
+    <h3>Ajouter un contact</h3>
+
+    <input type="text" id="nom" placeholder="Nom">
+
+    <input type="text" id="prenom" placeholder="Prénom">
+
+    <input type="email" id="email" placeholder="Email">
+    
+<input type="tel" id="telephone" placeholder="Téléphone">
+
+
+
+    <button id="validateBtn" disabled>Valider</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
