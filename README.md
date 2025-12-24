@@ -1,4 +1,6 @@
-# 📇 Contact Book Application web de gestion de contacts avec formulaire modal. ## 🎯 Fonctionnalités - Affichage d'une liste de contacts (Nom, Prénom, Email) - Ajout de contacts via une fenêtre modale - Validation : le bouton "Valider" s'active uniquement si tous les champs sont remplis - Overlay qui grise le formulaire principal lors de l'ouverture de la modale - Persistance des données avec json-server ## 🚀 Installation
+# 📇 Contact Book Application web de gestion de contacts avec formulaire modal.
+## 🎯 Fonctionnalités - Affichage d'une liste de contacts (Nom, Prénom, Email) - Ajout de contacts via une fenêtre modale - Validation : le bouton "Valider" s'active uniquement si tous les champs sont remplis - Overlay qui grise le formulaire principal lors de l'ouverture de la modale - Persistance des données avec json-server
+## 🚀 Installation
 bash
 # Cloner le dépôt
 git clone https://github.com/aurel12321/contact-book.git
